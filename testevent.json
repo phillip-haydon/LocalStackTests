@@ -1,0 +1,14 @@
+[
+	{
+		"Source": "test.events",
+		"DetailType": "TriggerEventLambda",
+		"Detail": "{\"value\":\"This value came from an event bridge trigger using an Event class\"}",
+		"EventBusName": "test-event-bus"
+	},
+	{
+		"Source": "test.events",
+		"DetailType": "TriggerObjectLambda",
+		"Detail": "{\"value\":\"This value came from an event bridge trigger using an object\"}",
+		"EventBusName": "test-event-bus"
+	}
+]
